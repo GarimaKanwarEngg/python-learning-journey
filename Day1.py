@@ -39,3 +39,11 @@ print(8+10)
 
 #mix text and mumbers
 print("I am", 21, "years old.")
+
+#
+#comments
+print ("Comments can be used to explain Python code, can be used to make th code more readable., and can be used to prevent execution when testing code.")
+#Multiline comments
+#python does not have a specific syntax for multiline comments,
+#to add a multiline comment you could insert a # for each line.
+#also , python ignore literal strings... so you can add multiline string (triple quotes) in your code.
