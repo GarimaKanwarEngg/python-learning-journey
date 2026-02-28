@@ -1,5 +1,7 @@
-# Python Learning Journey 🚀
 ![Python](https://img.shields.io/badge/Python-3.14-blue)
+
+# Python Learning Journey 🚀
+
 Hi, I'm Garima 👩‍💻  
 This repository contains my daily Python learning progress.
 
