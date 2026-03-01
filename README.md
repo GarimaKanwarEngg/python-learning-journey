@@ -43,3 +43,45 @@ print(sys.version)
 
 if 3 > 2:
     print("Three is greater than two!")
+
+
+# update_readme_clean.py
+
+day2_notes = """
+## Day 2: Python Variables & Data Types
+
+**Today I learned about variables in Python and how to use them effectively.**
+
+### Key Points
+- Variables are containers for storing data values.
+- Variables can change type dynamically.
+- Use casting to set a specific data type.
+- Variables are case-sensitive.
+- Global vs Local variables.
+
+### Example Code
+x = 7
+y = "Garima Kanwar"
+print(x, y)
+
+x = "Hello"  # changing type
+
+x = str(3)
+y = int(3)
+z = float(3)
+print(x, y, z)
+
+# Global variable example
+x = "awesome"
+def myfunc():
+    global x
+    x = "fantastic"
+myfunc()
+print(x)
+"""
+
+# Append to README.md
+with open("README.md", "a", encoding="utf-8") as f:
+    f.write("\n" + day2_notes)
+
+print("README.md updated for Day 2!")
