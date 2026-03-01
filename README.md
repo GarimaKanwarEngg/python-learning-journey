@@ -45,10 +45,9 @@ if 3 > 2:
     print("Three is greater than two!")
 
 
-# update_readme_clean.py
+---
 
-day2_notes = """
-## Day 2: Python Variables & Data Types
+## 📅Day 2: Python Variables & Data Types
 
 **Today I learned about variables in Python and how to use them effectively.**
 
@@ -78,10 +77,3 @@ def myfunc():
     x = "fantastic"
 myfunc()
 print(x)
-"""
-
-# Append to README.md
-with open("README.md", "a", encoding="utf-8") as f:
-    f.write("\n" + day2_notes)
-
-print("README.md updated for Day 2!")
