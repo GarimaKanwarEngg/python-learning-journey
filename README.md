@@ -33,20 +33,6 @@ This repository contains my daily Python learning progress.
 
 ---
 
-## 🖥 Example Code Snippet:
-
-```python
-print("Hello, World!")
-
-import sys
-print(sys.version)
-
-if 3 > 2:
-    print("Three is greater than two!")
-
-
----
-
 ## 📅Day 2: Python Variables & Data Types
 
 **Today I learned about variables in Python and how to use them effectively.**
