@@ -77,3 +77,90 @@ print(MyVariableName)
 print("3. Snake Case : Each word is separated by an underscore character")
 my_variable_name = "Garima" 
 print(my_variable_name)
+
+# assign multible values
+print("Many values to multiple variables \n Python allows you to assign values to multiple variables in one line")
+x, y, z = "Orange", "Banana", "Cherry"
+print("x = " , x)
+print("y = ", y)
+print("z = ",   z)
+#assign one value to multiple variables
+print("you can assign the same value to multiple variables in one line")
+x = y = z = "Orange"
+print(x)
+print(y)
+print(z)
+
+#unpack a collection
+print("if you have a collection of values in a list, tuple . python allows you to extract the values into variables. this is called unpacking.")
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
+
+#output variables
+x = "Python"
+y = "is"
+z = "awesome"
+print(x, y, z)
+
+x = "Python "
+y = "is "
+z = "awesome"
+print(x,'+',y,'+',z)
+print(x + y + z)
+
+x = 5
+y = "John"
+print(x, y)
+
+x = "Python"
+y = "is"
+z = "awesome"
+print(x, y, z)
+print('Hello', 'World')
+
+#global variables
+print("Variables that are created outside of a function are known as global variables.")
+print("Global variables can be used by everyone, both inside of functions and outside.")
+
+print("\n Create a variable outside of a function, and use it inside the function")
+x = "awesome"
+
+def myfunc():
+  print("Python is " + x)
+
+myfunc()
+
+print("\n create a variable inside a function, with the same name as the global variable.")
+x = "awesome"
+
+def myfunc():
+  x = "fantastic"
+  print("Python is " + x)
+
+myfunc()
+
+print("Python is " + x)
+
+#the global keyword
+print("when you create a variable inside a function, that variable is loval, an dcan only be used inside that fucntion")
+def myfunc():
+  global x
+  x = "fantastic"
+myfunc()
+print("Python is " + x)
+
+print ("\ntry")
+
+x = "awesome"
+print (x)
+def myfunc():
+  global x
+  x = "fantastic"
+  print("deff = " , x)
+print("before the function call = ", x)
+myfunc()
+print(x)
+print("Python is " + x)
