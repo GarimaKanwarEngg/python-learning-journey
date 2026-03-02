@@ -1,65 +1,127 @@
-![Python](https://img.shields.io/badge/Python-3.14-blue)
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/Status-Learning-green)
+![Consistency](https://img.shields.io/badge/Consistency-Daily-orange)
 
-# Python Learning Journey 🚀
+# 🐍 Python Learning Journey
 
 Hi, I'm Garima 👩‍💻  
-This repository contains my daily Python learning progress.
+This repository documents my structured and consistent journey of learning Python from beginner to advanced level using W3Schools and practical implementation.
 
 ---
 
-## 📅 Day 1 – Python Basics
+## 🎯 Objective
 
-### 📚 Topics Covered:
-- print() function
-- Checking Python version using `sys.version`
-- Indentation in Python
-- Variables (int & string)
-- Comments (single line & multiline concept)
-- Statements in Python
-- Using semicolons
-- `end` parameter in print()
-- Printing numbers
-- Mixing text and numbers in output
+To build strong programming fundamentals and progress towards:
+
+- Data Structures & Algorithms
+- Problem Solving
+- Real-world Projects
+- Open Source Contribution
+- Internship & Placement Preparation
 
 ---
 
-## 🧠 Key Learnings:
+## 📚 Learning Source
 
-- Python uses indentation to define blocks of code.
-- Variables can store different data types.
-- Comments improve readability.
-- `end` parameter controls line ending behavior.
-- Semicolons are optional in Python.
+Primary Learning Platform:  
+W3Schools Python Tutorial  
+https://www.w3schools.com/python/
+
+I am covering the complete Python roadmap including:
+
+### 🔹 Core Python
+- Syntax & Output
+- Variables & Data Types
+- Strings & String Methods
+- Operators
+- Conditionals (if...else, match)
+- Loops (while, for)
+- Functions
+- Arrays & Lists
+- Dictionaries & Sets
+- Modules
+- File Handling
+- Exception Handling
+
+### 🔹 Object-Oriented Programming
+- Classes & Objects
+- Constructors (__init__)
+- Inheritance
+- Polymorphism
+- Encapsulation
+
+### 🔹 Advanced Topics
+- JSON
+- Regular Expressions
+- Virtual Environments
+- Built-in Modules
+
+### 🔹 Libraries
+- NumPy
+- Pandas
+- Matplotlib
+- SciPy
+
+### 🔹 Data Structures & Algorithms
+- Lists & Arrays
+- Stacks & Queues
+- Linked Lists
+- Trees & Graphs
+- Searching Algorithms
+- Sorting Algorithms
+
+### 🔹 Databases
+- MySQL
+- MongoDB
+
+### 🔹 Machine Learning Basics
+- Linear Regression
+- Logistic Regression
+- Decision Trees
+- K-Means
+- Model Evaluation
 
 ---
 
-## 📅Day 2: Python Variables & Data Types
+## 📂 Repository Structure
 
-**Today I learned about variables in Python and how to use them effectively.**
+Each concept is implemented practically inside Python files:
 
-### Key Points
-- Variables are containers for storing data values.
-- Variables can change type dynamically.
-- Use casting to set a specific data type.
-- Variables are case-sensitive.
-- Global vs Local variables.
+Day1.py  
+Day2.py  
+Day3.py  
+Projects/  
 
-### Example Code
-x = 7
-y = "Garima Kanwar"
-print(x, y)
+As I progress, more structured folders and projects will be added.
 
-x = "Hello"  # changing type
+---
 
-x = str(3)
-y = int(3)
-z = float(3)
-print(x, y, z)
+## 🧠 Learning Approach
 
-# Global variable example
-x = "awesome"
-def myfunc():
-    global x
-    x = "fantastic"
-myfunc()
-print(x)
+- Understand theory from W3Schools
+- Implement concepts in Python
+- Practice exercises
+- Build mini projects
+- Push daily progress to GitHub
+
+Consistency > Motivation 🚀
+
+---
+
+## 📈 Progress Philosophy
+
+This repository reflects:
+- Daily discipline
+- Continuous improvement
+- Practical implementation
+- Long-term skill building
+
+---
+
+## 🔗 Connect With Me
+
+GitHub: https://github.com/GarimaKanwarEngg
+
+---
+
+⭐ If you're also learning Python, feel free to explore, fork, or learn along!
