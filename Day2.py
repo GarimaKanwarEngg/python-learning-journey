@@ -164,3 +164,8 @@ print("before the function call = ", x)
 myfunc()
 print(x)
 print("Python is " + x)
+
+#python datatypes
+print ("built in data types")
+x = 2+3j
+print(x)
