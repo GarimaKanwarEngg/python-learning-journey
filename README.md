@@ -120,7 +120,9 @@ This repository reflects:
 
 ## 🔗 Connect With Me
 
-GitHub: https://github.com/GarimaKanwarEngg
+**LinkedIn:** https://www.linkedin.com/in/garimakanwarrr/  
+**Instagram:** https://www.instagram.com/garimakanwarrr/  
+**GitHub:** https://github.com/GarimaKanwarEngg 
 
 ---
 
